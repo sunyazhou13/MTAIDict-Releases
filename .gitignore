@@ -1,0 +1,11 @@
+# 构建产物只作为 GitHub Release asset，绝不提交进仓库。
+# 单个 DMG 约 1.84 GiB，已接近 GitHub release asset 的 2 GiB 上限，
+# 误提交会立刻撑爆仓库（且普通 blob 有 100 MB 硬限制）。
+*.dmg
+*.zip
+*.pkg
+
+# macOS 噪声
+.DS_Store
+.AppleDouble
+.LSOverride
