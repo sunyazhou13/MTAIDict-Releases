@@ -5,9 +5,8 @@
 
 > 本仓库仅用于**分发构建产物与版本发布说明**；源码仓库暂不公开。
 >
-> 📌 **当前状态**：本目录为本地发布骨架，GitHub 仓库与 Release **尚未创建**，
-> 下方下载链接待 `v1.0.0` Release 上传 `MTAIDict-1.0.0.dmg` 后生效。
-> DMG 已在源码工程 `MTAIDict/dist/` 构建完成（SHA-256 见下表）。
+> 📌 **v1.0.0 为首个公开构建**，DMG 挂在 [v1.0.0 Release](https://github.com/sunyazhou13/MTAIDict-Releases/releases/tag/v1.0.0) 下。
+> 校验值见下表；下载后可用 `shasum -a 256 MTAIDict-1.0.0.dmg` 核对。
 
 ## 下载
 
@@ -21,7 +20,7 @@
 | 系统要求 | macOS 14.0 (Sonoma) 或更高 |
 | 架构 | Universal 2（Apple Silicon `arm64` + Intel `x86_64`） |
 | 文件大小 | 1,974,277,632 B ≈ 1.84 GiB |
-| SHA-256 | `719fba8a5d9acf593cc0a0b96fe0c28e5d6e67a6bd5a94fee0ff5df86f2b5cab` |
+| SHA-256 | `b8319ca80ab3ccda0e130f7070b2a9b5eb9f5f452dd57d43dea0720112df5013` |
 | 签名 | ad-hoc（未经 Developer ID 签名与公证，见下方「安装」） |
 
 > **关于体积**：安装包约 1.84 GiB，因为词库与推理模型全部随包分发 ——

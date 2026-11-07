@@ -10,7 +10,7 @@
 | 版本 | 1.0.0 (build 1) |
 | 系统要求 | macOS 14.0 (Sonoma) 或更高，Universal 2（arm64 + x86_64） |
 | 文件大小 | 1,974,277,632 B ≈ 1.84 GiB |
-| SHA-256 | `719fba8a5d9acf593cc0a0b96fe0c28e5d6e67a6bd5a94fee0ff5df86f2b5cab` |
+| SHA-256 | `b8319ca80ab3ccda0e130f7070b2a9b5eb9f5f452dd57d43dea0720112df5013` |
 | 签名 | ad-hoc（未签名公证，首次打开需手动放行） |
 
 ## ✨ 本版本内容
