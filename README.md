@@ -5,23 +5,29 @@
 
 > 本仓库仅用于**分发构建产物与版本发布说明**；源码仓库暂不公开。
 >
-> 📌 **v1.0.0 为首个公开构建**，DMG 挂在 [v1.0.0 Release](https://github.com/sunyazhou13/MTAIDict-Releases/releases/tag/v1.0.0) 下。
-> 校验值见下表；下载后可用 `shasum -a 256 MTAIDict-1.0.0.dmg` 核对。
+> 📌 **当前最新版 v1.0.3**（2026-11-11）：换用全新应用图标，版本号与构建号同步更新。
+> DMG 挂在 [v1.0.3 Release](https://github.com/sunyazhou13/MTAIDict-Releases/releases/tag/v1.0.3) 下。
+> 校验值见下表；下载后可用 `shasum -a 256 MTAIDict-1.0.3.dmg` 核对。
+> 历史版本见 [Releases 页面](https://github.com/sunyazhou13/MTAIDict-Releases/releases)。
 
 ## 下载
 
-**[下载最新版 MTAIDict-1.0.0.dmg](https://github.com/sunyazhou13/MTAIDict-Releases/releases/latest/download/MTAIDict-1.0.0.dmg)**
+**[下载最新版 MTAIDict-1.0.3.dmg](https://github.com/sunyazhou13/MTAIDict-Releases/releases/latest/download/MTAIDict-1.0.3.dmg)**
 
 也可以到 [Releases 页面](https://github.com/sunyazhou13/MTAIDict-Releases/releases) 查看所有版本与完整发布说明。
 
 | 项 | 值 |
 |---|---|
-| 版本 | 1.0.0 (build 1) |
+| 版本 | 1.0.3 (build 2) |
 | 系统要求 | macOS 14.0 (Sonoma) 或更高 |
 | 架构 | Universal 2（Apple Silicon `arm64` + Intel `x86_64`） |
-| 文件大小 | 1,974,277,632 B ≈ 1.84 GiB |
-| SHA-256 | `b8319ca80ab3ccda0e130f7070b2a9b5eb9f5f452dd57d43dea0720112df5013` |
+| 文件大小 | 1,973,106,176 B ≈ 1.84 GiB |
+| SHA-256 | `9d344a3a11f6b2a07e2f64c1c126edc0577875bfba3f08effd6c1c1b1f5154b0` |
 | 签名 | ad-hoc（未经 Developer ID 签名与公证，见下方「安装」） |
+
+> 🎨 **新图标（v1.0.3）**：应用图标从原来的「黑底金环 + 打开的书页」换成
+> **金边方框 + 深色皮革底 + 金色字母 A + 蓝色斜块**。整套 10 个尺寸切片已随包更新，
+> Dock / Finder / 菜单栏「关于」与 App 内侧栏图标都会同步显示新图。
 
 > **关于体积**：安装包约 1.84 GiB，因为词库与推理模型全部随包分发 ——
 > 339 万英汉词条（342 MB）、中文释义库（66 MB）、中英词典（20 MB）、
