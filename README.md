@@ -5,14 +5,15 @@
 
 > 本仓库仅用于**分发构建产物与版本发布说明**；源码仓库暂不公开。
 >
-> 📌 **当前最新版 v1.0.3**（2026-11-11）：换用全新应用图标，版本号与构建号同步更新。
+> 📌 **当前最新版 v1.0.3**（2026-11-11）：换用全新应用图标，版本号与构建号同步更新；
+> 英文名从 `MTAIDict` 改为 `AIDictionary`（`.app` 文件名 / Launchpad / 聚焦 / Dock 悬停显示，App 内中文品牌名「迈腾AI字典翻译」不变）。
 > DMG 挂在 [v1.0.3 Release](https://github.com/sunyazhou13/MTAIDict-Releases/releases/tag/v1.0.3) 下。
-> 校验值见下表；下载后可用 `shasum -a 256 MTAIDict-1.0.3.dmg` 核对。
+> 校验值见下表；下载后可用 `shasum -a 256 AIDictionary-1.0.3.dmg` 核对。
 > 历史版本见 [Releases 页面](https://github.com/sunyazhou13/MTAIDict-Releases/releases)。
 
 ## 下载
 
-**[下载最新版 MTAIDict-1.0.3.dmg](https://github.com/sunyazhou13/MTAIDict-Releases/releases/latest/download/MTAIDict-1.0.3.dmg)**
+**[下载最新版 AIDictionary-1.0.3.dmg](https://github.com/sunyazhou13/MTAIDict-Releases/releases/latest/download/AIDictionary-1.0.3.dmg)**
 
 也可以到 [Releases 页面](https://github.com/sunyazhou13/MTAIDict-Releases/releases) 查看所有版本与完整发布说明。
 
@@ -21,8 +22,8 @@
 | 版本 | 1.0.3 (build 2) |
 | 系统要求 | macOS 14.0 (Sonoma) 或更高 |
 | 架构 | Universal 2（Apple Silicon `arm64` + Intel `x86_64`） |
-| 文件大小 | 1,973,106,176 B ≈ 1.84 GiB |
-| SHA-256 | `9d344a3a11f6b2a07e2f64c1c126edc0577875bfba3f08effd6c1c1b1f5154b0` |
+| 文件大小 | 1,973,117,440 B ≈ 1.84 GiB |
+| SHA-256 | `e12dfdc39bf4a9d8a5b161879a8ae68c8c0e0f7d6775739c52c25b348f9fc448` |
 | 签名 | ad-hoc（未经 Developer ID 签名与公证，见下方「安装」） |
 
 > 🎨 **新图标（v1.0.3）**：应用图标从原来的「黑底金环 + 打开的书页」换成
@@ -40,7 +41,7 @@
 2. 首次打开若被 Gatekeeper 拦截，任选一种方式处理：
    - 在「系统设置 → 隐私与安全性」里点「仍要打开」；
    - 或右键 App → 「打开」；
-   - 或终端执行 `xattr -cr /Applications/MTAIDict.app` 后重新打开。
+   - 或终端执行 `xattr -cr /Applications/AIDictionary.app` 后重新打开。
 3. 首次使用「语音输入」时，系统会请求麦克风与语音识别权限。
 
 > ⚠️ **关于签名**：当前版本为 **ad-hoc 签名**，未经 Developer ID 签名与 Apple 公证，
